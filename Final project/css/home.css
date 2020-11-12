@@ -1,0 +1,203 @@
+/* home page */
+h3{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img{
+  margin:0;
+  padding:0;
+}
+.col{
+  width:50%;
+  float:left;
+  padding:0px;
+
+}
+
+.col img{
+  width:100%;
+  max-width: 100%;
+ display: block;
+  object-fit: cover;
+}
+.selfie{
+  max-height:290px;
+}
+
+.drone{
+  max-height:290px;
+}
+
+#description{
+  padding-top:10px;
+}
+
+#description1{
+  padding-top:10px;
+}
+
+#description2{
+  padding-top:10px;
+}
+
+
+
+#text-border{
+  padding:10px;
+  width:100%;
+
+}
+
+#text-border1{
+  padding:10px;
+  width:100%;
+
+}
+
+#text-border2{
+  padding:10px;
+  width:100%;
+
+}
+
+
+h2{
+  margin:0;
+}
+#testimonial{
+  color:white;
+}
+#slogan{
+ 
+    color: white;
+     font-size: 40px; 
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  
+}
+.container{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: row;
+  margin: 70px 350px 70px 350px;
+
+}
+
+
+.banner{
+  width:100%;
+  max-width: 100%;
+  height:50vh;
+
+  background-image: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/banner.png");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+/*.wrapper{
+  overflow: hidden;
+  position: relative;
+    
+}
+
+.wrapper:before{
+  content:"";
+  width : 100%;
+    height: 100%;
+    z-index: -1;
+  position: absolute;
+  background-color: #e8e8e8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:5rem;
+  
+  padding-bottom:5rem;
+}
+.testimonial{
+  text-align: center;
+  background-color: transparent;
+  color:black;
+  padding:10px;
+  width:400px;
+  margin:0;
+  font-size:2vh;
+  top:0px;
+}*/
+
+
+footer .container{
+  margin:0;
+}
+
+#projects{
+  background-color: grey;
+
+}
+
+#citationbox{
+background-color: #bbbfca;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+@media(max-width:1550px){
+  .container{
+    margin: 50px 100px 50px 100px;
+  }
+}
+
+@media(max-width:1025px){
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+  }
+
+  .col{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding:10px;
+  }
+ 
+}
+@media(max-width:490px){
+
+  #slogan{
+    font-size:x-large;
+  }
+}
+@media(max-width:400px){
+  .container{
+    margin:10px 50px 10px 50px;
+    overflow:hidden;
+  }
+
+  .col{
+    padding:0;
+  }
+   #slogan{
+    top:40%;
+  } 
+  footer{
+    flex-wrap: wrap;
+  }
+  .testimonial{
+    width:auto;
+  }
+  
+}
+/* end of home page */
