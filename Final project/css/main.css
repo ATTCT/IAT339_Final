@@ -30,6 +30,8 @@ ul{
 
 .main-nav{
     overflow: hidden;
+    float: right;
+    padding-top: 65px;
 }
 
 .main-nav a{
@@ -37,7 +39,6 @@ ul{
 }
 .main-nav a:hover{
     font-size:102%;
-    border-bottom: 1px solid black;
 }
   
   .link:hover{ 
@@ -48,8 +49,8 @@ ul{
     color: brown; 
   } 
 .logo{
-    min-height: 100px;
-    max-height: 100px;
+    min-height: 150px;
+    max-height: 150px;
     margin:0;
 }
 
@@ -66,10 +67,6 @@ header,.main-nav a{
     flex-direction: column;
 }
 
-/*.home-content{
-    width:60%;
-}*/
-
 .faq{
     padding:5px 15px;
 }
@@ -78,24 +75,7 @@ header,.main-nav a{
     text-transform: uppercase;
 }
 
-/*.recipe{
-    padding: 15px 10px ;
-}
 
-.recipe h1, .recipe h2{
-    margin:0;
-    padding:0;
-}
-
-.recipe h1{
-    font-size: 25px;
-}*/
-
-
-/*video{
-    padding-bottom:10px;
-}
-*/
 footer{
     text-align: center;
     padding-top:2rem;

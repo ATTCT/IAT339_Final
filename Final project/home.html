@@ -2,37 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IAT339 Final Portfolio</title>
-    <link href="css/main.css" type="text/css" rel="stylesheet">
-    <link href="css/home.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IAT339 Final Portfolio</title>
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <link href="css/home.css" type="text/css" rel="stylesheet">
+  <link href="css/carousel.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="whole">
     <header>
-        <a href="home.html"><img class="logo" src="img/ATTCT_LOGO.png" alt="logo"></a>
-        <ul class="main-nav">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Interests</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+      <a href="home.html"><img class="logo" src="img/ATTCT_LOGO.png" alt="logo"></a>
+      <ul class="main-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </header>
     <main>
-    <div class="banner">
-      <h1 id="slogan">Let's build something amazing together!</h1>
-    </div>
 
-    <div class="container">
+      <div class="banner">
+        
+          <div class="container">
+            <h1>Designer principle</h1>
+          </div>
+
+
+          <div class="container">
+            <div class="row">
+              <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <h4>"One figured out some basic stuff ... that form and colour defines your perception of the nature of an object, whether or not it is intended to."<br><span>Jonathan Ive, Apple designer</span></h4>
+                  </div>
+                  <div class="item">
+                    <h4>"We try to solve very complicated problems without letting people know how complicated the problem was. That’s the appropriate thing."<br><span>Jonathan Ive, Apple designer</span></h4>
+                  </div>
+                  <div class="item">
+                    <h4>"From a designer’s point of view, it’s not an appearance game we’re playing. It is very utilitarian. It’s the use of material in a very minimalist way."<br><span>Jonathan Ive, Apple designer</span></h4>         
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="container">
 
         <h1>About the designer</h1>
-</div>
+      </div>
 
-<div class="container">
+      <div class="container">
         <div class="row">
           <div class="col">
             <img class="selfie" src="img/selfie.png" alt="selfie">
@@ -41,76 +85,33 @@
 
           <div class="col" id="content-box">
             <div id=text-border>
-              <h2>Bio</h2>
-            <p id="description">With a strong interest in graphics and print design, I am an Interactive Arts + Technology student striving to hone and expand skills in visual communication across various mediums of design. I seek to achieve greater levels of fidelity, continuously improving my sense of visual communication. My experience involves working productively in both collaborative and individual settings. </p>
-             </div>
+              <h2>Biography</h2>
+              <p id="description">With a strong interest in graphics and print design, I am an Interactive Arts + Technology student striving to hone and expand skills in visual communication across various mediums of design. I seek to achieve greater levels of fidelity, continuously improving my sense of visual communication. My experience involves working productively in both collaborative and individual settings. </p>
+
+              <h2>Interests in employment</h2>
+              <p id="description3">I am passionate to develop my career in the field of layout design. In which, I will be responsible to structure the layout of images and text in a pleasing format for printed media, such as magazines, posters, and newspapers.</p>
+            </div>
           </div>
         </div>
+      </div>
 
 
-</div>
+      
 
-  <div class="container">
 
-        <h1>Projects</h1>
+    </main>
+
+    <footer>
+      <div id="citationbox">
+        <p><a href ="http://www.sfu.ca/~act14/IAT339/Portfolio%20styleguide/index.html" class="link">Styleguide</a></p>
+        <p><a href ="https://github.com/ATTCT/IAT339_Final" class="link">Git Repository</a></p>
+        <p>&copy; Andrew Tsui IAT339 Fall2020 </p>
+
+      </div>
+
+
+    </footer>
   </div>
-
-  <div  class="container">
-        <div class="row">
-          <div class="col">
-            <img class="project" src="img/drone.png" alt="drone">
-          </div>
-
-          <div class="col">
-            <div id=text-border1>
-              <h2>Analyses</h2>
-            <p id="description1">Graphic design is a first-year course in SFU that introduces the foundational design principles for visual representation and communication. Creating an advertisement without any color was one of the individual tasks assigned to students. For this assignment, I had to generate a design for the topic “a drone that collects your groceries”. Since there was a color constraint in this project, I could only use black and white within my work. Therefore, I planned to apply the concept of white space in my design. In visual arts, “whitespace, many times referred to as negative space, [was] the portion of a page left unmarked, the portion that [was] left blank, or the empty space in a page” (Muller, G, 2012, para 5).</p>
-            <p>With the use of whitespace, it would provide a sense of neatness to my work, thereby drawing the audience’s attention to the drone and grocery icons (Figure 7). Also, applying whitespace in my design would also improve readability, since the design was concise and clean, the audience could easily understand the message of my advertisement; drone helps grocery.</p>
-            <p>By finishing this project, I not only learned that the concept of whitespace was very important for demonstrating artwork but also understood that the uses of whitespace would help to convey the message of your design significantly. </p>
-            <p>Muller, G. (2012, November 06). Whitespace in Web Design: What It Is and Why You Should Use It. Retrieved from <a href="http://blog.teamtreehouse.com/white-space-in-web-design-what-it-is-and-why-you-should-use-it"> http://blog.teamtreehouse.com/white-space-in-web-design-what-it-is-and-why-you-should-use-it</a></p>
-
-             </div>
-          </div>
-        </div>
-
-</div>
-
-<div  class="container">
-        <div class="row">
-          <div class="col">
-            <img class="project" src="img/summary.png" alt="summary">
-            <img class="project" src="img/draft.png" alt="draft">
-            <img class="project" src="img/poster.png" alt="poster">
-          </div>
-
-
-          <div class="col">
-            <div id=text-border2>
-              <h2>Analyses</h2>
-            <p id="description2">Information Design is a second-year course at SFU that introduces the theory and design of presenting information visually. Creating an information design poster for the City of Vancouver's Emergency Management Team was the first individual task assigned to students.  For this project, students had to develop materials to inform citizens about extreme weather events, in an attempt to help citizens understand and effectively prepare for extreme weather events. Through this project, students would learn the way to structure and design visual representations of information. </p>
-            <p>Starting out, I had to select one piece of signage from a set of existing info-graphics shown in class that illustrated different extreme weather conditions and to create a summary identifying the advantages and disadvantages of the selected signage afterward (Figure 4). Working from the summary, I had to improve the original design of the signage by resolving the issues in the design. Then, I started to develop some sketches of the poster design that would help me to finalize my eventual design (Figure 5). After creating the sketches, they picked one of the designs and began to create the ultimate design through Adobe Illustrator. However, while I was resolving the original design, I identified that there was a lot of room for improvement. For instance, It was lack of remarkable information, images, and spaces, thus it was not able to present information efficiently. Therefore, I restructured and redesigned the original signage in a diverse way which clearly showcased the information about extreme weather conditions and provided a sense of unity and conciseness (Figure 6). </p>
-             <p>Through the assignment, I learned that presenting information demanded the communication and relationship between visual and textual, in order to illustrate the information to the audience with effectiveness. Moreover, although the project only required to improve the original design, I was willing to distinguish myself, so I chose to produce a new design instead. As a result, the project not only resulted in a decent grade, but it also inspired me to go beyond the limit, thereby challenging myself.</p>
-           
-             </div>
-          </div>
-        </div>
-
-</div>
-
-  
-</main>
-
-  <footer>
-    <div id="citationbox">
-      <p><a href ="http://www.sfu.ca/~act14/IAT339/Portfolio%20styleguide/index.html" class="link">Styleguide</a></p>
-      <p><a href ="https://github.com/ATTCT/IAT339_Final" class="link">Git Repository</a></p>
-      <p>&copy; Andrew Tsui IAT339 Fall2020 </p>
-  
-    </div>
-   
-
-</footer>
-</div>
 </body>
 
 
