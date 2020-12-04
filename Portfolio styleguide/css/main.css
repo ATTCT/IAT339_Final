@@ -39,7 +39,7 @@
     color: white;
   }
 
-   #citations{
+  #citations{
     background-color: #bbbfca;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -215,27 +215,27 @@
     height:50%;
   }
 
-@media (max-width: 240px){
-.list{
-  font-size: 50%;
-}
-.list a{
-  font-size: 20%;
-}
-}
+  @media (max-width: 240px){
+    .list{
+      font-size: 50%;
+    }
+    .list a{
+      font-size: 20%;
+    }
+  }
 
   @media (max-width: 365px){
-.list{
-  font-size: 50%;
-}
-.list a{
-  font-size: 20%;
-}
+    .list{
+      font-size: 50%;
+    }
+    .list a{
+      font-size: 20%;
+    }
     .logo{
       margin:.25em 0;
       max-width: 0px;
       max-height: 0px;
-     
+      
     }
     .main-nav{
       flex-direction: column;
@@ -247,6 +247,13 @@
   }
 
   @media (max-width: 425px){
+
+    .list{
+      font-size: 50%;
+    }
+    .list a{
+      font-size: 20%;
+    }
     .logo{
       margin:.25em 0;
     }
@@ -260,9 +267,13 @@
   }
 
   @media (max-width: 558px){
-.list{
-  font-size: 50%;
-}
+    .list{
+      font-size: 50%;
+    }
+    .list a{
+      font-size: 20%;
+    }
+
     .logo{
       margin:.25em 0;
     }

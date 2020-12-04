@@ -133,6 +133,8 @@ padding-bottom: 10px;
 
 }
 
+/*Preprocessing animation learned from https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp*/
+
 .slideanim {visibility:hidden;}
 .slide {
   /* The name of the animation */
